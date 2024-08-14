@@ -1,0 +1,33 @@
+header {
+    background-color: rgb(24, 24, 24);
+    justify-content: center;
+    height: 90px;
+    margin: auto;
+    display: flex;
+}
+
+.menu-container{
+    width: 100%;
+    margin: auto;
+    margin-left: 80px;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    ul{
+        display: flex;
+    li{
+        list-style: none;
+        padding: 10px;
+    a{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    &:hover {
+        color:#cf0a0a;
+    }
+            }
+        }
+    }
+}
