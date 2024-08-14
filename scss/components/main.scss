@@ -1,7 +1,7 @@
 
 .sobremi-container{
-    height: 460px;
-    width: 470px;
+    height: auto;
+    width: 40%;
     margin: auto;
     margin-top: 10px;
     border-radius: 20px;
@@ -25,7 +25,9 @@
 }
 
 .textosobremi{
-    width: 440px;
+    padding: 15px;
+    width: auto;
+    height: auto;
     margin: auto;
     p{
         color: #000000;
@@ -36,7 +38,7 @@
 .sobremi{
     margin-top: 20px;
     display: flex;
-    height: 450px;
+    height: auto;
     padding: 20px;
     background-color: rgb(255, 255, 255);
 }
@@ -52,11 +54,13 @@
 
 .imgsobremi{
     margin-top: 70px;
-    height: 300px;
-    width: 40%;
+    height: auto;
+    width:30%;
     text-align: center;
+    margin: auto;
     img{
-        height: 320px;
+        height:auto;
+        width: 100%;
     }
 }
 
@@ -69,10 +73,14 @@
 
 .expimg{
     margin-top: 70px;
-    width: 50%;
+    margin: auto;
+    width: 40%;
+    height: auto;
     text-align: center;
     img{
-        height: 250px;
+        height: auto;
+        width: 100%;
+        padding: 5px;
     }
 }
 
@@ -80,6 +88,7 @@
     margin: auto;
     margin-top: 40px;
     width: 50%;
+    height: auto;
     p{
         font-size: 12px;
     }
@@ -90,17 +99,28 @@
     margin-top: 50px;
     padding: 20px;
     margin: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyectostxt{
+    width: 100%;
+    margin-top: 40px;
+    height: auto;
+    padding: 40px;
     p{
         font-size: 12px;
-        width: 70%;
     }
 }
+
+
 .galeria{
     background-color: rgb(255, 255, 255);
     margin: auto;
     text-align: center;
     height: auto;
-    background: linear-gradient(rgb(85, 85, 85),  rgb(24, 24, 24),rgb(84, 84, 84));
+    background: linear-gradient(rgb(52, 52, 52),  rgb(24, 24, 24),rgb(84, 84, 84));
     padding: 10px;
     h3{
         color: rgb(216, 216, 216);
@@ -113,7 +133,7 @@
     justify-content: center;
     img{
         width: auto;
-        height: 250px;
+        height: 300px;
         padding: 5px;
         background-size: cover;
         &:hover{
@@ -121,4 +141,133 @@
             transition:transform 0.8s ;
         }
     }
+}
+
+@media only screen and (max-width:800px) {
+
+    .sobremi-container{
+        width: 70%;
+        margin-top: 5px;
+    }
+
+    .textosobremi{
+        p{
+            font-size: 12px;
+        }
+    }
+
+    .sobremi{
+        margin-top: 20px;
+        display: block;
+        padding: 15px;
+    }
+    
+    .sobremitxt{
+        width: 80%;
+        p{
+            font-size: 12px;
+        }
+    }
+    
+    .imgsobremi{
+        width:65%;
+    }
+
+    .miexperiencia{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .expimg{
+        order: 2;
+        width: 80%;
+    }
+    
+    .exptxt{
+        order: 1;
+        width: 80%;
+        height: auto;
+        p{
+            font-size: 12px;
+        }
+    }
+
+    .proyectos-container{
+        margin-top: 80px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .proyectotxt{
+        height: auto;
+        width: 80%;
+        p{
+            font-size: 12px;
+        }
+    }
+    .galeria{
+        background-color: rgb(255, 255, 255);
+        margin: auto;
+        text-align: center;
+        height: auto;
+        background: linear-gradient(rgb(52, 52, 52),  rgb(24, 24, 24),rgb(84, 84, 84));
+        padding: 10px;
+        h3{
+            font-size: 16px;
+            color: rgb(216, 216, 216);
+        }
+    }
+    
+    .galeriaimg{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        img{
+            width: auto;
+            height: 250px;
+            padding: 5px;
+            background-size: cover;
+            &:hover{
+                transform: scale(1.1);
+                transition:transform 0.8s ;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .sobremi-container{
+        position: relative;
+        height: auto;
+        width: 68%;
+        margin: 0;
+        margin-left: 2px;
+    }
+    
+    .textosobremi{
+        padding: 18px;
+        p{
+            font-size: 12px;
+        }
+    }
+
+    .galeriaimg{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        img{
+            width: 300px;
+            height: auto;
+            padding: 5px;
+            background-size: cover;
+            &:hover{
+                transform: scale(1);
+                transition:transform 0.8s ;
+            }
+        }
+    }
+
 }
