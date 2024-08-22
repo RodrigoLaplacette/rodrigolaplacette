@@ -67,7 +67,7 @@
     margin-top: 40px;
     width: 60%;
     p{
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
@@ -109,7 +109,7 @@
     width: 50%;
     height: auto;
     p{
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
@@ -129,9 +129,55 @@
     height: auto;
     padding: 40px;
     p{
-        font-size: 12px;
+        font-size: 14px;
     }
 }
+
+.videossimracing{
+    display: flex;
+    height: 500px;
+    padding: 5px;
+    margin: auto;
+    justify-content: center;
+}
+
+
+.vueltaf430{
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    video{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+}
+
+.vuelta499p{
+    width: 30%;
+    height: 100%;
+    video{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+}
+
+.vueltasf24{
+    width: 30%;
+    height: 100%;
+    video{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    
+}
+
+
 
 
 .galeria{
@@ -225,6 +271,46 @@
             font-size: 12px;
         }
     }
+
+    .videossimracing{
+        display: block;
+        height: auto;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .vueltaf430{
+        width: 50%;
+        height: 100%;
+        padding: 10px;
+        margin: auto;
+        video{
+            width: 100%;
+            height: 100%;
+        }    
+    }
+
+    .vuelta499p{
+        width: 50%;
+        margin: auto;
+        padding: 10px;
+        video{
+            width: 100%;
+            height: 100%;
+        }   
+    }
+    
+    .vueltasf24{
+        width: 50%;
+        margin: auto;
+        padding: 10px;
+        video{
+            width: 100%;
+            height: 100%;
+            padding: 0;
+        }    
+    }
+
     .galeria{
         background-color: rgb(255, 255, 255);
         margin: auto;
@@ -271,6 +357,39 @@
         p{
             font-size: 12px;
         }
+    }
+
+
+    .vueltaf430{
+        width: 90%;
+        height: 100%;
+        padding: 10px;
+        margin: auto;
+        video{
+            width: 100%;
+            height: 100%;
+        }    
+    }
+
+    .vuelta499p{
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+        video{
+            width: 100%;
+            height: 100%;
+        }   
+    }
+    
+    .vueltasf24{
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+        video{
+            width: 100%;
+            height: 100%;
+            padding: 0;
+        }    
     }
 
     .galeriaimg{
