@@ -197,10 +197,10 @@
     flex-wrap: wrap;
     justify-content: center;
     img{
-        width: auto;
+        width: 300px;
         height: 300px;
         padding: 5px;
-        background-size: cover;
+        object-fit: cover;
         &:hover{
             transform: scale(1.1);
             transition:transform 0.8s ;
@@ -264,7 +264,7 @@
         width: 100%;
     }
 
-    .proyectotxt{
+    .proyectostxt{
         height: auto;
         width: 80%;
         p{
@@ -329,10 +329,10 @@
         flex-wrap: wrap;
         justify-content: center;
         img{
-            width: auto;
-            height: 250px;
+            width: 350px;
+            height: 300px;
             padding: 5px;
-            background-size: cover;
+            object-fit: cover;
             &:hover{
                 transform: scale(1.1);
                 transition:transform 0.8s ;

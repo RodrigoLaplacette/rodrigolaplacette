@@ -271,10 +271,10 @@ header {
   justify-content: center;
 }
 .galeriaimg img {
-  width: auto;
+  width: 300px;
   height: 300px;
   padding: 5px;
-  background-size: cover;
+  object-fit: cover;
 }
 .galeriaimg img:hover {
   transform: scale(1.1);
@@ -325,11 +325,11 @@ header {
     margin: auto;
     width: 100%;
   }
-  .proyectotxt {
+  .proyectostxt {
     height: auto;
     width: 80%;
   }
-  .proyectotxt p {
+  .proyectostxt p {
     font-size: 12px;
   }
   .videossimracing {
@@ -385,10 +385,10 @@ header {
     justify-content: center;
   }
   .galeriaimg img {
-    width: auto;
-    height: 250px;
+    width: 350px;
+    height: 300px;
     padding: 5px;
-    background-size: cover;
+    object-fit: cover;
   }
   .galeriaimg img:hover {
     transform: scale(1.1);
